@@ -1,0 +1,28 @@
+.container {
+    margin: auto;
+    padding: 50px 200px 20px 200px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    display: grid;
+    /* justify-content: center; */
+    width: 150px;
+    height: 250px;
+    padding: 5px;
+
+}
+
+.title{
+    display: flex;
+}
+
+.image {
+    display: flex;
+    width: 150px;
+}

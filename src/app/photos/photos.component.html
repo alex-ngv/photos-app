@@ -1,0 +1,13 @@
+<div *ngIf="myPhotos.length; else loading"class=container>
+    <div class=grid>
+        <div class=photo *ngFor="let photo of myPhotos | paginate: { itemsPerPage: 10, currentPage: p }">
+            <img class=img src={{photo.thumbnailUrl}} alt={{photo.title}}>
+            <div class=title>{{photo.title}}</div>
+        </div>
+    </div>
+</div>
+<pagination-controls *ngIf="myPhotos.length" (pageChange)="p = $event"></pagination-controls>
+
+<ng-template #loading>
+    <div>Loading...</div>
+</ng-template>
