@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Intiall node modules with `npm install`. Use node version 20.
+To install download the soucre files and install node modules with `npm install`. Use node version 20.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
